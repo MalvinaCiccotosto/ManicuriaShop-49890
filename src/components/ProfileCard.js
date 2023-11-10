@@ -1,9 +1,6 @@
-
-
 function ProfileCard( props ){
 
-let {titulo, arroba, img} = props;
-
+let {titulo, arroba, img} = props
     return (
         <div>
             <img src={img} alt="logo"/>
@@ -13,4 +10,4 @@ let {titulo, arroba, img} = props;
     )
 }
 
-export default ProfileCard;
+export default ProfileCard
