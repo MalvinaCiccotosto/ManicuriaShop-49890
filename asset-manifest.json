@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ManicuriaShop-49890/static/css/main.5293a8c7.css",
+    "main.js": "/ManicuriaShop-49890/static/js/main.799cb255.js",
+    "static/media/kapping1.jpg": "/ManicuriaShop-49890/static/media/kapping1.af8b339ee1aa93fa6272.jpg",
+    "static/media/semi1.jpg": "/ManicuriaShop-49890/static/media/semi1.b7bcd7f9c89363f9e200.jpg",
+    "static/media/softgel1.jpg": "/ManicuriaShop-49890/static/media/softgel1.1e504168e556c300bbf6.jpg",
+    "index.html": "/ManicuriaShop-49890/index.html",
+    "main.5293a8c7.css.map": "/ManicuriaShop-49890/static/css/main.5293a8c7.css.map",
+    "main.799cb255.js.map": "/ManicuriaShop-49890/static/js/main.799cb255.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5293a8c7.css",
+    "static/js/main.799cb255.js"
+  ]
+}
