@@ -1,0 +1,57 @@
+{
+    "categories": [
+        {
+            "id": "esmaltado-semipermanente",
+            "name": "Esmaltado Semipermanente",
+            "products": [
+                {
+                    "id": "1",
+                    "name": "Esmalte Semipermanente",
+                    "price": 3500,
+                    "image": "https://i.pinimg.com/originals/31/40/98/31409830600b805bd605a95e08b0b431.jpg",
+                    "description": "Un esmalte semipermanente es un tipo de manicura que se hace cada 2-3 semanas; a diferencia de los esmaltes clásicos, la manicura semipermanente no requiere que se retire y se vuelva a poner de nuevo con tanta frecuencia, todo es gracias a su durabilidad."
+                },
+                {
+                    "id": "2",
+                    "name": "Semipermanente en Pies",
+                    "price": 3000,
+                    "image": "https://podologiagoitia.com/wp-content/uploads/2022/06/pedicura-permanente-scaled.jpg",
+                    "description": "Belleza de pies con esmaltado semipermanente: consiste en el arreglo de las uñas, donde se cortan, se liman y se dan forma a la uñas. También se empujan, se limpian y se cortan las cutículas. Para finalizar se realiza el esmaltado semipermanente."
+                }
+            ]
+        },
+        {
+            "id": "kapping-en-gel",
+            "name": "Kapping en Gel",
+            "products": [
+                {
+                    "id": "3",
+                    "name": "Kapping en Gel",
+                    "price": 4000,
+                    "image": "https://cdn.getskedu.com/skedu-v2/3e7a4571-dca6-4705-ac5b-372f965df70f/7e055e57-d923-4b69-9aab-ef09efe5415c.jpeg",
+                    "description": "El Kapping consiste en aplicar una fina capa de acrílico o gel fortificador sobre la uña que actuará como una barrera protectora. A diferencia de las uñas esculpidas, este baño en gel kapping no alarga la uña natural sino que acompaña el crecimiento de la misma y dura hasta 20 días."
+                },
+                {
+                    "id": "4",
+                    "name": "Esculpidas en Acrilico",
+                    "price": 6000,
+                    "image": "https://i.pinimg.com/originals/3f/15/49/3f1549c6de339dbaed55dc0c9380b309.jpg",
+                    "description": "Este tipo de uñas postizas se hacen en acrílico con una combinación de líquido especial o monómero y polímero en polvo, que se endurece rápidamente al dejar secar con aire."
+                }
+            ]
+        },
+        {
+            "id": "extension-soft-gel",
+            "name": "Extensión Soft Gel",
+            "products": [
+                {
+                    "id": "5",
+                    "name": "Extensión Soft Gel",
+                    "price": 5000,
+                    "image": "https://i.pinimg.com/1200x/b1/13/00/b1130095c435bb79ee5c941e1d7ced66.jpg",
+                    "description": "La técnica de Soft Gel consiste en un método de extensión de uñas mediante tips que se adhieren directamente a la superficie de la uña natural."
+                }
+            ]
+        }
+    ]
+}

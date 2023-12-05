@@ -1,0 +1,39 @@
+
+
+
+
+
+.navbar {
+    background-color: rgb(245, 233, 233);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+.nav-link {
+    color: rgb(255, 0, 217);
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #b30098;
+}
+
+
+
+
+
+
+
+

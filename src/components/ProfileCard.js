@@ -1,44 +1,48 @@
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ProfileCard( props ){
+function ProfileCard(props) {
+    const [count, setCount] = useState(5);
 
-const [count , setCount]= useState(5);
+    let { titulo, arroba, img, id } = props;
 
-let {titulo, arroba, img} = props
-
-function handleClick(){
-    console.log("Se clickeo el boton")
-    setCount( count - 1)
-}
-
+    function handleClick() {
+        if (count > 0) {
+            setCount(count - 1);
+        }
+    }
 
 
     return (
-        <div className="card">
-            <div className="card-img is-1by1">
-                <figure className="image">
-                    <img src={img} alt="logo"/>
-                </figure>
-            </div>
-
-            <div className="card-content">
-                <div className="media-content">
-                    <p className="title is-4">{titulo}</p>
-                    <p className="subtitle is-6">{arroba}</p>
+        <div className="card mb-3">
+            <div className="row g-0">
+                <div className="col-md-4">
+                    <img src={img} alt="logo" className="img-fluid" />
                 </div>
-                <div className="clumns">
-                    <div className="column">
-                        <button onClick={handleClick} className="button is-danger is-fullwidth"> Solicitá tu turno acá </button>
+                <div className="col-md-8">
+                    <div className="card-body">
+                        <h4 className="card-title">{titulo}</h4>
+                        <p className="card-text">{arroba}</p>
+                        <div className="row">
+                            <div className="col-md-4">
+                                <a href={`/item/${id}`} className="btn btn-danger btn-block">
+                                    Detalles
+                                </a>
+                            </div>
+                            <div className="col-md-4">
+                                <button onClick={handleClick} className="btn btn-danger btn-block">
+                                    {count === 0 ? "Turnos Agotados" : "Solicitá tu turno acá"}
+                                </button>
+                            </div>
+                            <div className="col-md-4">
+                                <span> Turnos Disponibles {count} </span>
+                            </div>
+                        </div>
                     </div>
-                    <div className="column">
-                        <span> Turnos Diponibles {count} </span>
-                    </div>
-
                 </div>
             </div>
-
         </div>
-    )
+    );
 }
 
-export default ProfileCard
+export default ProfileCard;
