@@ -7,7 +7,6 @@ import ImageList from '../ImageList';
 
 const NavBar = () => {
     const [arrImage, setArrImage] = useState([]);
-
     const handleSubmit = async (term) => {
         let resultado = await searchImage(term);
         setArrImage(resultado);

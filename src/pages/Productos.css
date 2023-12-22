@@ -1,0 +1,46 @@
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+img{
+    height: 50%;
+}
+
+div article a{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    text-decoration: none;
+}
+
+div a{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    height: 30px;
+    text-decoration: none;
+}
