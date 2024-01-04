@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 import CartWidget from "../CartWidget/CartWidget"
 import './styles.css'
-import SearchBar from "../SearchBar.js";
-import searchImage from "../../api";
-import ImageList from '../ImageList';
+import SearchBar from "../SearchBar.js"
+import searchImage from "../../api"
+import ImageList from '../ImageList'
 
 const NavBar = () => {
-    const [arrImage, setArrImage] = useState([]);
+    const [arrImage, setArrImage] = useState([])
     const handleSubmit = async (term) => {
-        let resultado = await searchImage(term);
-        setArrImage(resultado);
+        let resultado = await searchImage(term)
+        setArrImage(resultado)
     }
 
-    
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
@@ -20,9 +20,9 @@ const NavBar = () => {
                     TIENDA ONLINE OFICIAL
                 </a>
                 <div>
-                <SearchBar enSubmit={handleSubmit} />
-                <ImageList images={arrImage} />
-            </div>
+                    <SearchBar enSubmit={handleSubmit} />
+                    <ImageList images={arrImage} />
+                </div>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -42,11 +42,6 @@ const NavBar = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/galeria">
-                                Galeria
-                            </a>
-                        </li>
-                        <li className="nav-item">
                             <a className="nav-link" href="/productos">
                                 Productos
                             </a>
@@ -61,10 +56,10 @@ const NavBar = () => {
                 <div>
                     <CartWidget />
                 </div>
-                
+
             </div>
         </nav>
-    );
-};
+    )
+}
 
-export default NavBar;
+export default NavBar

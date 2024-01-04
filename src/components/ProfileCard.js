@@ -2,9 +2,9 @@ import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProfileCard(props) {
-    const [count, setCount] = useState(5);
+    let { titulo, arroba, img, id, stock } = props;
+    const [count, setCount] = useState(stock || 0);
 
-    let { titulo, arroba, img, id } = props;
 
     function handleClick() {
         if (count > 0) {
